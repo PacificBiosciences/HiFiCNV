@@ -1,5 +1,5 @@
 # HiFiCNV : Depth visualization utility for PacBio HiFi reads
-A utility to provide depth and copy number segmentation tracks from HiFi alignment files.
+A utility to call copy number variants from HiFi alignment files.
 
 ## Early release warning
 Please note that HiFiCNV is still in early development. 
@@ -10,7 +10,7 @@ We are still tweaking the input / output file formats and making changes that ca
 * [Auxiliary data files](./data)
 
 ## Documentation
-* [Quickstart example](docks/quickstart.md)
+* [Quickstart example](docs/quickstart.md)
 * [Output files](docs/outputs.md)
 * [Methods](docs/methods.md)
 * [Performance](docs/performance.md)
