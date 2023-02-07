@@ -32,14 +32,13 @@ The combined process of haploid depth estimation and segmentation is iterated un
 
 For each depth bin, the GC and AT counts are taken from the reference sequence within a window centered on the depth
 bin. The GC counts window size is independent of the depth bin size, it is currently set to a default value of
-20000 bases (adjustable with hidden option `gc-genome-window-size`). GC counts are also accumulated for the entire
-genome. GC counting is implemented in `get_gc_bins`.
+20000 bases. GC counts are also accumulated for the entire genome. 
 
 Next the method iterates over all depth bins to build a mapping between GC fraction and average depth is found. For
-this operation the GC fraction is discretized into equal size frequency bins, using 40 bins by default (adjustable with
-the option `gc-level-count`). Each depth bin is assigned a GC level, and the depth for all bins at a given GC level is
-accumulated and averaged. Any GC-level with at least 2 million bases of depth bin representation is qualified to be used
-in GC bias correction process. For example, for a depth bin size of 1000, a given GC level would need at least 2000
+this operation the GC fraction is discretized into equal size frequency bins, using 40 bins by default. 
+Each depth bin is assigned a GC level, and the depth for all bins at a given GC level is accumulated and averaged. 
+Any GC-level with at least 2 million bases of depth bin representation is qualified to be used in GC bias correction process. 
+For example, for a depth bin size of 1000, a given GC level would need at least 2000
 depth bins observed at that GC level to be qualified for the GC bias correction process. The qualifying GC level with
 the highest average depth is found, and the depth at this GC-level is interpreted as being the 'unbiased' coverage
 level, and a correction factor is computed for each GC level by taking the average depth for the GC level and dividing
@@ -48,8 +47,7 @@ it by the 'unbiased' coverage level from the max depth bin.
 For non-qualifying GC-level bins, without sufficient depth bin support, the following method is used ot set a correction
 factor. Find the range of continuously qualifying GC-level bins containing the max-depth GC-level. All bins higher than
 that range use the correction factor of the highest qualifying bin in the range, all bins lower than that range use the
-correction factor of the lowest qualifying bin in the range. The procedure for computing correction factors is
-implemented in `get_gc_correction`.
+correction factor of the lowest qualifying bin in the range.
 
 GC bias correction is applied downstream in the segmentation model, the depth values themselves are never adjusted, but
 the emission probability of the observed depth given the haploid coverage level and copy number is adjusted to account

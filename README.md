@@ -1,6 +1,4 @@
-# HiFiCNV : Depth visualization utility for PacBio HiFi reads
-A utility to call copy number variants from HiFi alignment files.
-
+# HiFiCNV : Copy number variant caller and depth visualization utility for PacBio HiFi reads
 ## Early release warning
 Please note that HiFiCNV is still in early development. 
 We are still tweaking the input / output file formats and making changes that can affect the behavior of the program.
