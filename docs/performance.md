@@ -6,7 +6,7 @@ This document captures relevant performance metrics for HiFiCNV.
 HiFiCNV was primarily evaluated with copy number variants from [Gross et al., 2019](https://doi.org/10.1038/s41436-018-0295-y).
 This includes 17 reference samples with 36 CNV events (gain/duplication or loss/deletion) with reported coordinates in hg19.
 Of the 36 reported events, 3 were removed due to liftover failures, 1 was removed because the sample was not sequenced, 5 were removed due to lack of evidence following manual inspection of array and/or sequence data, and 2 were removed due to fully residing within the HiFiCNV exclude regions.
-The remaining 25 events were analyzed using both HiFiCNV.
+The remaining 25 events were analyzed using both HiFiCNV and [pbsv](https://github.com/PacificBiosciences/pbsv).
 The full list of variants with liftover coordinates and annotations regarding exclusion is availabe [here](./supporting_data/Gross_2019_CNVs.csv).
 
 Note that this collection includes a wide range of clinically relevant events with sizes from as small as 13kbp to as large as whole chromosome duplications.
