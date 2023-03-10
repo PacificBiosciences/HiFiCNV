@@ -1,4 +1,13 @@
 # HiFiCNV : Copy number variant caller and depth visualization utility for PacBio HiFi reads
+
+HiFiCNV is a copy number variant (CNV) caller optimized for HiFi reads. Key features include:
+
+- Segmentation and calling optimized for HiFi germline WGS
+- Automatic GC-bias estimation and correction
+- Generates bigwig tracks for depth and allele frequency to visualize CNV-scale events in IGV
+- CNV output in bedgraph and VCF formats
+- Efficient multi-threaded analysis
+
 ## Early release warning
 Please note that HiFiCNV is still in early development. 
 We are still tweaking the input / output file formats and making changes that can affect the behavior of the program.
