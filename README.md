@@ -8,6 +8,7 @@ We are still tweaking the input / output file formats and making changes that ca
 * [Auxiliary data files](./data)
 
 ## Documentation
+* [Installation instructions](docs/install.md)
 * [Quickstart example](docs/quickstart.md)
 * [Output files](docs/outputs.md)
 * [Methods](docs/methods.md)
