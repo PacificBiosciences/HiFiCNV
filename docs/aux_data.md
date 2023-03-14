@@ -1,5 +1,5 @@
 # Auxiliary data generation
-This file contains details on how auxiliary data files were generated for HiFiCNV.
+Details on how HiFiCNV [auxiliary data files](../data) were generated.
 
 ## Excluded Regions
 Excluded regions can optionally be specified with a bed file.

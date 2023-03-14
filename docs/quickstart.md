@@ -11,10 +11,14 @@ hificnv \
 Parameters:
 * `{BAM}` - a BAM file containing reads from the sample
 * `{REF_FASTA}` - a FASTA file containing the reference genome, gzip allowed
-* `{EXCLUDE}` - a BED file of excluded regions, recommended for hg38: [cnv.excluded_regions.hg38.bed.gz](../data/excluded_regions/cnv.excluded_regions.hg38.bed.gz)
+* `{EXCLUDE}` - a BED file of excluded regions, recommended for hg38: [cnv.excluded_regions.common_50.hg38.bed.gz](../data/excluded_regions/cnv.excluded_regions.common_50.hg38.bed.gz)
 * `{EXPECTED_CNV}` - a BED file containing regions with deviant copy number expectations (two copy is the default if unspecified), male and female expectation files are proved in the [expected_cn](../data/expected_cn) folder
 * `{THREADS}` - number of threads to use
 * `{OUTPUT_PREFIX}` - the prefix for all output files
+
+## Auxiliary data files
+
+See [auxiliary file generation](aux_data.md) for details on the above recommended data files.
 
 ## Example
 

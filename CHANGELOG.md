@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.1.5 - 2023-03-14
+### Fixed
+* Adjust linux release build process to improve portability
+
 ## v0.1.4 - 2023-03-13
 ### Fixed
 * Fixes a bug where optional files were being treated as required ([HIFICNV-2](https://github.com/PacificBiosciences/HiFiCNV/issues/2))
