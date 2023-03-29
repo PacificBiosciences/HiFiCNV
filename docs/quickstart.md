@@ -1,3 +1,10 @@
+# User Guide
+Table of contents:
+
+* [Quickstart](#quickstart)
+* [Supported upstream processes](#supported-upstream-processes)
+* [Output files](./outputs.md)
+
 # Quickstart
 ```
 hificnv \
@@ -56,3 +63,14 @@ HG002_male.HG002.copynum.bedgraph  HG002_male.HG002.depth.bw  HG002_male.HG002.m
 These tracks visualized in IGV appear as follows:
 
 ![](../img/hg002_chr7_tracks.png)
+
+# Supported upstream processes
+The following upstream processes are supported as inputs to HiFiCNV:
+
+* Aligners (BAM files):
+  * [pbmm2](https://github.com/PacificBiosciences/pbmm2) (recommended)
+  * [minimap2](https://github.com/lh3/minimap2)
+* Variant callers (for MAF)
+  * [DeepVariant](https://github.com/google/deepvariant) - for SNV/indel
+
+Other upstream processes may work with HiFiCNV, but there is no official support for them at this time.

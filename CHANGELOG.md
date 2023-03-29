@@ -1,5 +1,13 @@
 # Change Log
 
+## v0.1.6 - 2023-03-29
+### Additions
+* Added support for minimap2-aligned BAM files
+* Updated quickstart to specify supported upstream tools
+
+### Fixed
+* Improved error messaging for cov-regex mismatch
+
 ## v0.1.5 - 2023-03-14
 ### Fixed
 * Adjust linux release build process to improve portability
