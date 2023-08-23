@@ -8,6 +8,8 @@ HiFiCNV is a copy number variant (CNV) caller optimized for HiFi reads. Key feat
 - CNV output in bedgraph and VCF formats
 - Efficient multi-threaded analysis
 
+Authors: [Chris Saunders](https://github.com/ctsa), [Matt Holt](https://github.com/holtjma)
+
 ## Early release warning
 Please note that HiFiCNV is still in early development. 
 We are still tweaking the input / output file formats and making changes that can affect the behavior of the program.
@@ -26,7 +28,7 @@ We are still tweaking the input / output file formats and making changes that ca
 
 ## Need help?
 If you notice any missing features, bugs, or need assistance with analyzing the output of HiFiCNV, 
-please don't hesitate to [reach out by email](mailto:mholt@pacificbiosciences.com) or open a GitHub issue.
+please open a GitHub issue.
 
 ## Support information
 HiFiCNV is a pre-release software intended for research use only and not for use in diagnostic procedures. 

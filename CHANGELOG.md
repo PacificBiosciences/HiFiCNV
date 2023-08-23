@@ -1,5 +1,18 @@
 # Change Log
 
+## v0.1.7 - 2023-08-22
+
+### Added
+- Add new data files to partially support hg19 and hs37d5
+
+### Changed
+- Rename expected copy number example files from male/female to XY/XX
+
+### Fixed
+* New FAQ section to explain common errors
+* Improved error message for cov-regex mismatch
+* Improved error messaging for mismatches between aligned BAM contigs and provided reference file contigs
+
 ## v0.1.6 - 2023-03-29
 ### Additions
 * Added support for minimap2-aligned BAM files

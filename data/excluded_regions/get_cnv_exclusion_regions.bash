@@ -11,11 +11,11 @@ set -o nounset
 bgzip=bgzip
 tabix=tabix
 
-# The reference tag for the genome version to use. This script may work with other reference versions in the UCSC genome
-# browser database, but this hasn't been tested.
+# The reference tag for the genome version to use. This script has only been tested for ref values 'hg19' and 'hg38'.
+# It may work with other reference versions in the UCSC genome browser database, but this hasn't been tested.
 ref=hg38
 
-outfile=cnv.excluded_regions.hg38.bed.gz
+outfile=cnv.excluded_regions.${ref}.bed.gz
 
 base_url=http://hgdownload.cse.ucsc.edu/goldenPath/$ref
 
@@ -31,11 +31,18 @@ get_gaps() {
   }'
 }
 
-# Get UCSC Centromere track, simplify labels and convert to bed format:
+# Get UCSC Centromere track if it exists, simplify labels and convert to bed format
+#
+# This file is optional because in at least some older genomes, it may not exist. In such cases the centromere
+# regions are annotated in the gap track instead.
+#
 get_centromeres() {
-  wget -O - $base_url/database/centromeres.txt.gz |\
-  gzip -dc |\
-  awk -v OFS='\t' '{print $2,$3,$4,"centromere";}'
+  url=$base_url/database/centromeres.txt.gz
+  if wget --quiet --spider $url; then
+    wget -O - $url |\
+    gzip -dc |\
+    awk -v OFS='\t' '{print $2,$3,$4,"centromere";}'
+  fi
 }
 
 # Get alpha-satellite regions from the UCSC repeatmasker track
