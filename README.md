@@ -1,4 +1,10 @@
-# HiFiCNV : Copy number variant caller and depth visualization utility for PacBio HiFi reads
+<h1 align="center"><img width="300px" src="img/logo_HiFiCNV.svg"/></h1>
+
+<h1 align="center">HiFiCNV</h1>
+
+<p align="center">Copy number variant caller and visualization utilities for HiFi sequencing data</p>
+
+***
 
 HiFiCNV is a copy number variant (CNV) caller optimized for HiFi reads. Key features include:
 

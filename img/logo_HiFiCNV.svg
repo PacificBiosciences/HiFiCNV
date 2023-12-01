@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        opacity: .2;
+      }
+
+      .cls-4 {
+        opacity: .6;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="32" cy="32" fx="32" fy="32" r="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b8c4"/>
+      <stop offset="1" stop-color="#1383c6"/>
+    </radialGradient>
+  </defs>
+  <rect class="cls-1" width="64" height="64"/>
+  <g>
+    <g>
+      <circle class="cls-2" cx="32" cy="32" r="22"/>
+      <path class="cls-3" d="m16.44365,47.55635c-8.59153-8.59153-8.59153-22.52116,0-31.1127,8.59153-8.59153,22.52116-8.59153,31.1127,0l-31.1127,31.1127Z"/>
+    </g>
+    <g>
+      <g>
+        <g>
+          <g>
+            <line class="cls-5" x1="54" y1="29.42601" x2="54" y2="18.95189"/>
+            <line class="cls-5" x1="51.25" y1="29.42601" x2="51.25" y2="18.95189"/>
+            <line class="cls-5" x1="48.5" y1="29.42601" x2="48.5" y2="14.47595"/>
+            <line class="cls-5" x1="45.75" y1="29.42601" x2="45.75" y2="17.29865"/>
+            <line class="cls-5" x1="43" y1="29.42601" x2="43" y2="10"/>
+          </g>
+          <g>
+            <line class="cls-5" x1="32" y1="29.42601" x2="32" y2="22.58403"/>
+            <line class="cls-5" x1="34.75" y1="29.42601" x2="34.75" y2="18.4502"/>
+            <line class="cls-5" x1="37.5" y1="29.42601" x2="37.5" y2="12.23797"/>
+            <line class="cls-5" x1="40.25" y1="29.42601" x2="40.25" y2="15.79278"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <line class="cls-5" x1="29.25" y1="26.48432" x2="29.25" y2="29.35299"/>
+            <line class="cls-5" x1="26.5" y1="29.42601" x2="26.5" y2="27.88214"/>
+            <line class="cls-5" x1="23.75" y1="29.35299" x2="23.75" y2="26.19775"/>
+            <line class="cls-5" x1="21" y1="29.35299" x2="21" y2="23.95978"/>
+          </g>
+          <g>
+            <line class="cls-5" x1="10" y1="28.69059" x2="10" y2="29.35299"/>
+            <line class="cls-5" x1="12.75" y1="27.95517" x2="12.75" y2="29.35299"/>
+            <line class="cls-5" x1="15.5" y1="29.35299" x2="15.5" y2="26.93317"/>
+            <line class="cls-5" x1="18.25" y1="29.35299" x2="18.25" y2="27.39181"/>
+          </g>
+        </g>
+      </g>
+      <line class="cls-4" x1="54" y1="29.35299" x2="54" y2="31.0153"/>
+      <line class="cls-4" x1="51.25" y1="29.35299" x2="51.25" y2="36.50347"/>
+      <line class="cls-4" x1="48.5" y1="29.35299" x2="48.5" y2="35.49125"/>
+      <line class="cls-4" x1="45.75" y1="29.35299" x2="45.75" y2="37.72922"/>
+      <line class="cls-4" x1="43" y1="29.35299" x2="43" y2="39.9672"/>
+      <line class="cls-4" x1="32" y1="29.35299" x2="32" y2="39.12338"/>
+      <line class="cls-4" x1="34.75" y1="29.35299" x2="34.75" y2="35.49125"/>
+      <line class="cls-4" x1="37.5" y1="29.35299" x2="37.5" y2="37.72922"/>
+      <line class="cls-4" x1="40.25" y1="29.35299" x2="40.25" y2="34.09709"/>
+      <line class="cls-4" x1="29.25" y1="29.35299" x2="29.25" y2="47.28608"/>
+      <line class="cls-4" x1="26.5" y1="29.35299" x2="26.5" y2="43.59933"/>
+      <line class="cls-4" x1="23.75" y1="29.35299" x2="23.75" y2="51.76203"/>
+      <line class="cls-4" x1="21" y1="29.35299" x2="21" y2="48.12989"/>
+      <line class="cls-4" x1="10" y1="29.35299" x2="10" y2="47.28608"/>
+      <line class="cls-4" x1="12.75" y1="29.35299" x2="12.75" y2="45.42626"/>
+      <line class="cls-4" x1="15.5" y1="29.35299" x2="15.5" y2="51.76203"/>
+      <line class="cls-4" x1="18.25" y1="29.35299" x2="18.25" y2="54"/>
+    </g>
+  </g>
+</svg>
