@@ -1,5 +1,22 @@
 # Change Log
 
+## v1.0.0 - 2024-03-27
+
+This release includes minor ease-of-use improvements, CNV output should be unchanged. The release version is updated to 1.0 to reflect that HiFiCNV is now operating as a stable part of our HiFi WGS pipeline.
+
+### Added
+- Add progress reporter to alignment scan
+
+### Changed
+- Accelerate depth bin GC content computation
+  - Improve and parallelize algorithm to reduce fixed runtime overhead by ~5 min for human genome analysis with typical thread counts.
+
+### Fixed
+- Improve error message for failed depth estimation (#25)
+- Improve error message for unmapped BAM input (#24)
+- Improve error message for mismatched reference and BAM chromosomes (#23)
+- Improve error message when BAM index is missing (#22)
+
 ## v0.1.7 - 2023-08-22
 
 ### Added
