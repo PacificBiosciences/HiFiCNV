@@ -1,5 +1,12 @@
 # Change Log
 
+## v1.0.1 - 2024-10-21
+
+### Fixed
+- Improve minor allele frequency VCF parsing (#31)
+  - Allow for and filter out unknown AD values
+  - Improve error message to include VCF lines that can't be parsed
+
 ## v1.0.0 - 2024-03-27
 
 This release includes minor ease-of-use improvements, CNV output should be unchanged. The release version is updated to 1.0 to reflect that HiFiCNV is now operating as a stable part of our HiFi WGS pipeline.
